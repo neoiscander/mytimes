@@ -1,1 +1,26 @@
-Hello css
+.header {
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.rightheader {
+  display: inline-flex;
+}
+
+.leftheader {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  padding: 10px;
+  color: black;
+}
+
+.mytimes {
+  color: aquamarine;
+  padding-left: 10px;
+}
