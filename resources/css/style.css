@@ -3,14 +3,18 @@
   border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 
 }
 
-.rightheader {
-  display: inline-flex;
+.logo {
+  display: flex;
+  color: mediumAquamarine;
 }
 
-.leftheader {
+.nav {
   display: flex;
   align-items: center;
 }
@@ -21,6 +25,72 @@ a {
 }
 
 .mytimes {
-  color: aquamarine;
   padding-left: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.small {
+  width: 240px;
+  border: 1px solid black;
+}
+
+.columns {
+  border: 1px solid black;
+  min-height: 1px;
+}
+
+.img {
+  display: flex;
+  height: 300px;
+
+}
+
+.main {
+  background-image: url("../images/img-story-main.png");
+}
+
+.container h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.img h3 {
+  color: white;
+}
+
+.main h3 {
+  font-size: 40px;
+}
+
+.column p {
+  font-size: 17px;
+}
+
+.earthspin {
+  background-image: url("../images/img-story-2.png");
+}
+
+.camera {
+  background-image: url("../images/img-story-3.png");
+  justify-content: space-between;
+
 }
