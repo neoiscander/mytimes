@@ -12,6 +12,8 @@
 .logo {
   display: flex;
   color: mediumAquamarine;
+  border: 1px solid black;
+  align-items: center;
 }
 
 .nav {
@@ -25,7 +27,7 @@ a {
 }
 
 .mytimes {
-  padding-left: 10px;
+  padding: 0 10px;
 }
 
 .container {
@@ -85,12 +87,15 @@ a {
   font-size: 17px;
 }
 
-.earthspin {
+.story2 {
   background-image: url("../images/img-story-2.png");
 }
 
-.camera {
+.story3 {
   background-image: url("../images/img-story-3.png");
   justify-content: space-between;
+}
 
+.story1 {
+  background-image: url("../images/img-story-1.png");
 }
