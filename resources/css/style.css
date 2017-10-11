@@ -43,7 +43,7 @@ a {
 
 .subcontainer {
   display: flex;
-
+  /*border: 1px solid black;*/
 }
 
 .subcontainer2  {
@@ -55,11 +55,18 @@ a {
   display: flex;
   width: 1300px;
   justify-content: space-around;
+  /*border: 1px solid black;*/
 }
 
-.row {
+.block {
   width: 305px;
-  align-items: ceter;
+  align-items: stretch;
+  /*border: 1px solid black;*/
+}
+
+.medium h3 {
+  margin: 0;
+  /*border: 1px solid black;*/
 }
 
 .large {
@@ -75,6 +82,10 @@ a {
 .small {
   width: 240px;
   /*border: 1px solid black;*/
+}
+
+.padding {
+  padding-left: 15px;
 }
 
 .large, .medium, .small {
@@ -118,7 +129,6 @@ a {
 
 .story3 {
   background-image: url("../images/img-story-3.png");
-
 }
 
 .story1 {
